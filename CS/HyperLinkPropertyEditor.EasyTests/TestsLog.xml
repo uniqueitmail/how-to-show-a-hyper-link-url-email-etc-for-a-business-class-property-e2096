@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<Tests xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Date="12/3/2014">
+  <Test Name="E2096" ApplicationName="E2096Win" Result="Warning" Elapsed="00:00:00.7540213" Started="12/3/2014 7:42:45 PM" MachineName="GARAVSKY-SV-NB" IP="172.22.1.65">
+    <Error Type="System.Exception">
+      <Message><![CDATA[Cannot find the adapter for the 'E2096Win' application in the 'DevExpress.ExpressApp.EasyTest.WinAdapter.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a' assembly.================================================================================
+The error occurred:
+
+	Type:       Exception
+	Message:    Cannot find the adapter for the 'E2096Win' application in the 'DevExpress.ExpressApp.EasyTest.WinAdapter.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a' assembly.
+	Data:       0 entries
+	Stack trace:
+
+   at DevExpress.EasyTest.Framework.Utils.CommonAdapterCreator.GetAdapterType(TestApplication testApplication)
+   at DevExpress.EasyTest.Framework.Utils.CommonAdapterCreator.CreateAdapter(TestApplication testApplication)
+   at DevExpress.EasyTest.Framework.TestExecutor.CreateApplicationAdapterCore(String applicationName)
+   at DevExpress.ExpressApp.Design.Commands.DesignTimeTestExecutor.CreateApplicationAdapterCore(String applicationName)
+   at DevExpress.EasyTest.Framework.TestExecutor.ParseScript(Stream testStream, String applicationName)
+   at DevExpress.EasyTest.Framework.TestExecutor.RunTest(Stream testStream)
+	InnerException is null
+]]></Message>
+    </Error>
+  </Test>
+  <Test Name="E2096" ApplicationName="E2096Web" Result="Warning" Elapsed="00:00:00.7710230" Started="12/3/2014 7:42:45 PM" MachineName="GARAVSKY-SV-NB" IP="172.22.1.65">
+    <Error Type="System.Exception">
+      <Message><![CDATA[Cannot find the adapter for the 'E2096Web' application in the 'DevExpress.ExpressApp.EasyTest.WebAdapter.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a' assembly.================================================================================
+The error occurred:
+
+	Type:       Exception
+	Message:    Cannot find the adapter for the 'E2096Web' application in the 'DevExpress.ExpressApp.EasyTest.WebAdapter.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a' assembly.
+	Data:       0 entries
+	Stack trace:
+
+   at DevExpress.EasyTest.Framework.Utils.CommonAdapterCreator.GetAdapterType(TestApplication testApplication)
+   at DevExpress.EasyTest.Framework.Utils.CommonAdapterCreator.CreateAdapter(TestApplication testApplication)
+   at DevExpress.EasyTest.Framework.TestExecutor.CreateApplicationAdapterCore(String applicationName)
+   at DevExpress.ExpressApp.Design.Commands.DesignTimeTestExecutor.CreateApplicationAdapterCore(String applicationName)
+   at DevExpress.EasyTest.Framework.TestExecutor.ParseScript(Stream testStream, String applicationName)
+   at DevExpress.EasyTest.Framework.TestExecutor.RunTest(Stream testStream)
+	InnerException is null
+]]></Message>
+    </Error>
+  </Test>
+</Tests>

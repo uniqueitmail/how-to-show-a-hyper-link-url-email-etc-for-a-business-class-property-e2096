@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<Tests xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Date="9/17/2015">
+  <Test Name="E2096" ApplicationName="E2096Win" Result="Passed" Elapsed="00:00:15.1564012" Started="9/17/2015 12:37:30 AM" MachineName="GARAVSKY-SV-NB" IP="192.168.1.5" />
+  <Test Name="E2096" ApplicationName="E2096Web" Result="Passed" Elapsed="00:00:25.1468535" Started="9/17/2015 12:37:45 AM" MachineName="GARAVSKY-SV-NB" IP="192.168.1.5" />
+</Tests>
